@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import '@antmjs/vantui/lib/index.less';
+@import 'styles/vant.less';
+
+page {
+  --primary-color: #006ae8;
+  --primary-bg-color: @bgColor;
+  --button-primary-background-color: @primary;
+  background: @pageBack;
+  font-size: 28px;
+  font-family: @base-font-family;
+  color: @black;
+}
+
+view {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
