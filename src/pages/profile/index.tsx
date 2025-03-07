@@ -9,10 +9,10 @@ const Profile = () => {
   const removeUser = useUserStore.use.removeUser();
 
   useEffect(() => {
-    if (!user?.userName)
-      Taro.navigateTo({
-        url: "/pages/package-a/login/index",
-      });
+    // if (!user?.userName)
+    //   Taro.navigateTo({
+    //     url: "/pages/package-a/login/index",
+    //   });
   }, [user?.userName]);
 
   return (
