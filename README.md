@@ -12,12 +12,18 @@ node >= 18.17.0
 - #### 启动本地开发服务
 
   ```shell
-  pnpm run dev:weapp
+   pnpm run dev:weapp // 启动微信小程序
+   pnpm run dev:h5   // 启动H5
+   pnpm run dev:tt   // 启动抖音
+   pnpm run dev:alipay //   启动阿里
   ```
 - #### 启动开发者工具预览及调试
 
   ```shell
-  微信开发者工具打开 weapp 文件夹并运行
+  微信开发者工具打开 dist/weapp 文件夹并运行
+  支付宝宝开发者工具打开 dist/alipay 文件夹并运行
+  抖音开发者工具打开 dist/tt 文件夹并运行
+  H5  dist/weapp  // 直接网页端口运行
   ```
 
 ## 生产打包
