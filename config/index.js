@@ -19,7 +19,7 @@ const config = {
     828: 1.81 / 2,
   },
   sourceRoot: "src",
-  outputRoot: process.env.TARO_ENV,
+  outputRoot: `dist/${process.env.TARO_ENV}`,
   compiler: 'webpack5',
   alias: {
     '@': path.resolve(__dirname, '..', 'src')
