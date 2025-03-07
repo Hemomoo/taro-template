@@ -1,6 +1,6 @@
 {
   "miniprogramRoot": "",
-  "projectname": "hyacinth-wxapp",
+  "projectname": "taro-template",
   "description": "Taro微信小程序",
   "setting": {
     "urlCheck": false,

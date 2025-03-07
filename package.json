@@ -1,8 +1,8 @@
 {
-  "name": "hyacinth-miniapp-template",
+  "name": "taro-template",
   "version": "1.0.0",
   "private": true,
-  "description": "Taro3.6 + React + TypeScript + tailwindcss + zustand + @antmjs/vantui3.5 微信/支付宝小程序模板",
+  "description": "Taro3.6 + React + TypeScript + tailwindcss + zustand + @antmjs/vantui3.5 微信/支付宝/抖音/小程序和 H5模板",
   "keywords": [
     "taro",
     "react",
@@ -13,10 +13,12 @@
     "less",
     "weapp",
     "wx",
-    "alipay"
+    "alipay",
+    "tt",
+    "h5"
   ],
   "templateInfo": {
-    "name": "Taro微信/支付宝小程序",
+    "name": "Taro微信/支付宝/tt小程序和H5模板",
     "typescript": true,
     "css": "less"
   },
@@ -39,7 +41,7 @@
       "last 1 version"
     ]
   },
-  "author": "zhujiruo <email zhujiruo@hzfi.cn>",
+  "author": "hemooo",
   "dependencies": {
     "@antmjs/mini-fix": "^2.4.0",
     "@antmjs/plugin-global-fix": "^2.4.0",

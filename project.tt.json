@@ -1,6 +1,6 @@
 {
   "miniprogramRoot": "",
-  "projectname": "hyacinth-miniapp-template",
+  "projectname": "taro-template",
   "appid": "testAppId2",
   "setting": {
     "urlCheck": true,
