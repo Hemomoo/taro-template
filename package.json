@@ -25,6 +25,8 @@
     "dev:alipay": "npm run build:alipay -- --watch",
     "build:weapp": "taro build --type weapp",
     "dev:h5": "npm run build:h5 -- --watch",
+    "dev:tt": "npm run build:tt -- --watch",
+    "build:tt": "taro build --type tt",
     "build:h5": "taro build --type h5",
     "build:alipay": "taro build --type alipay",
     "postinstall": "weapp-tw patch"
@@ -49,6 +51,7 @@
     "@tarojs/plugin-framework-react": "3.6.35",
     "@tarojs/plugin-platform-alipay": "3.6.35",
     "@tarojs/plugin-platform-h5": "^4.0.9",
+    "@tarojs/plugin-platform-tt": "^4.0.9",
     "@tarojs/plugin-platform-weapp": "3.6.35",
     "@tarojs/react": "3.6.35",
     "@tarojs/router": "3.6.35",
