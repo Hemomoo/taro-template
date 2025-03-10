@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "lib": ["dom", "es2018"],
     "target": "es2017",
     "module": "commonjs",
     "removeComments": false,
