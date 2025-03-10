@@ -1,0 +1,101 @@
+{
+  "name": "taro-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Taro3.6 + React + TypeScript + tailwindcss + zustand + @antmjs/vantui3.x 微信/支付宝/tt小程序和H5模板",
+  "keywords": [
+    "taro",
+    "react",
+    "tailwindcss",
+    "zustand",
+    "vant",
+    "@amtmjs/vantui",
+    "less",
+    "weapp",
+    "wx",
+    "alipay",
+    "tt",
+    "h5"
+  ],
+  "templateInfo": {
+    "name": "Taro微信/支付宝/tt小程序和H5模板",
+    "typescript": true,
+    "css": "less"
+  },
+  "scripts": {
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "dev:alipay": "npm run build:alipay -- --watch",
+    "build:weapp": "taro build --type weapp",
+    "dev:h5": "npm run build:h5 -- --watch",
+    "dev:tt": "npm run build:tt -- --watch",
+    "build:tt": "taro build --type tt",
+    "build:h5": "taro build --type h5",
+    "build:alipay": "taro build --type alipay",
+    "postinstall": "weapp-tw patch"
+  },
+  "browserslist": {
+    "production": [
+      "ios >= 9"
+    ],
+    "development": [
+      "last 1 version"
+    ]
+  },
+  "author": "hemooo",
+  "dependencies": {
+    "@antmjs/mini-fix": "^2.4.0",
+    "@antmjs/plugin-global-fix": "^2.4.0",
+    "@antmjs/vantui": "^3.6.1",
+    "@babel/runtime": "^7.14.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
+    "@tarojs/components": "3.6.35",
+    "@tarojs/helper": "3.6.35",
+    "@tarojs/plugin-framework-react": "3.6.35",
+    "@tarojs/plugin-platform-alipay": "3.6.35",
+    "@tarojs/plugin-platform-h5": "^4.0.9",
+    "@tarojs/plugin-platform-tt": "^4.0.9",
+    "@tarojs/plugin-platform-weapp": "3.6.35",
+    "@tarojs/react": "3.6.35",
+    "@tarojs/router": "3.6.35",
+    "@tarojs/runtime": "3.6.35",
+    "@tarojs/shared": "3.6.35",
+    "@tarojs/taro": "3.6.35",
+    "dayjs": "^1.11.13",
+    "immer": "^10.1.1",
+    "lodash": "^4.17.21",
+    "query-string": "^9.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@antmjs/plugin-mini-fix": "^2.4.0",
+    "@babel/core": "^7.13.0",
+    "@tailwindcss/postcss": "^4.0.12",
+    "@tarojs/cli": "3.6.35",
+    "@tarojs/taro-loader": "3.6.35",
+    "@tarojs/webpack5-runner": "3.6.35",
+    "@types/lodash": "^4.17.13",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@types/webpack-env": "^1.13.6",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "autoprefixer": "^10.4.20",
+    "babel-plugin-import": "^1.13.5",
+    "babel-preset-taro": "3.6.35",
+    "eslint": "^8.12.0",
+    "eslint-config-taro": "3.6.35",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "postcss": "^8.5.3",
+    "postcss-rem-to-responsive-pixel": "^6.0.2",
+    "stylelint": "^14.6.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.6.3",
+    "weapp-tailwindcss": "^4.0.11",
+    "webpack": "5.78.0"
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+}
