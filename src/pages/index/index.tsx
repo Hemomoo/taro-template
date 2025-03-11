@@ -1,18 +1,8 @@
 /* eslint-disable */
 import { Card } from "@antmjs/vantui";
 import { View } from "@tarojs/components";
-import F2Canvas from "taro-f2-react";
-
-import { Chart, Interval } from '@antv/f2';
 
 export default function Demo() {
-  const data = [
-    { genre: 'Sports', sold: 275 },
-    { genre: 'Strategy', sold: 115 },
-    { genre: 'Action', sold: 120 },
-    { genre: 'Shooter', sold: 350 },
-    { genre: 'Other', sold: 150 },
-  ];
   // 商品数据数组
   const products = [
     {
@@ -54,11 +44,6 @@ export default function Demo() {
             thumb={product.thumb}
           />
         ))}
-        <F2Canvas>
-          <Chart data={data} className='w-[200px] h-[200px]'>
-            <Interval x="genre" y="sold" />
-          </Chart>
-        </F2Canvas>
       </View>
     </>
   );
